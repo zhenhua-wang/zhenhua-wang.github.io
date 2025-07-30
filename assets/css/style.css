@@ -96,30 +96,38 @@ footer {
 
 /* Profile */
 .flex-container {
-  display: flex;
-  align-items: center;
-  gap: 2rem;
-  padding: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
 }
 
 .profile-image img {
-  width: 200px;
-  height: auto;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .intro-text {
-  flex: 1;
+    flex: 1;
 }
 
 @media (max-width: 768px) {
-  .flex-container {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  .profile-image img {
-    width: 100%;
-    max-width: 300px;
-  }
+    .flex-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .profile-image img {
+        width: 100%;
+        max-width: 300px;
+    }
+}
+
+.affiliation {
+    font-style: italic;
+    font-size: 0.9rem;
+    color: #999;
+    margin-top: 0.5rem;
+    text-align: left;
 }
